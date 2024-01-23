@@ -51,7 +51,7 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp"
 echo "==============================="
-echo "Script By Gemilang Kinasih"
+echo "Script By AtaaXD"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
 
