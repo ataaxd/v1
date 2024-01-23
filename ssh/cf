@@ -6,11 +6,11 @@ mkdir -p /root/xray
 clear
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=zvx.my.id
-SUB_DOMAIN=pro-${sub}.zvx.my.id
-NS_DOMAIN=dns-${subsl}.zvx.my.id
-CF_ID=mezzqueen293@gmail.com
-CF_KEY=e03f30d53ad7ec2ab54327baa5e2da5ab44f0
+DOMAIN=serverxd.my.id
+SUB_DOMAIN=pro-${sub}.serverxd.my.id
+NS_DOMAIN=dns-${subsl}.serverxd.my.id
+CF_ID=wastaakuy300@gmail.com
+CF_KEY=EuBitCb0EZEdNN7WeeE_GI4Jj3zITkGgPIjujPvc
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
