@@ -283,6 +283,7 @@ case $opt in
 12) clear ; menu-theme ;;
 13) clear ; update ;;
 14) clear ; menu ;;
+15) clear ; wget https://raw.githubusercontent.com/gemilangvip/autoscript-vvip/main/udpcustom/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
