@@ -278,7 +278,7 @@ case $opt in
 7) clear ; menu-backup ;;
 8) clear ; add-host ;;
 9) clear ; running ;;
-10) clear ; bot ;;
+10) clear ; xolpanel ;;
 11) clear ; bw ;;
 12) clear ; menu-theme ;;
 14) clear ; update ;;
