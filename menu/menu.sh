@@ -282,7 +282,8 @@ case $opt in
 11) clear ; bw ;;
 12) clear ; menu-theme ;;
 14) clear ; update ;;
-13) clear ; wget https://raw.githubusercontent.com/gemilangvip/autoscript-vvip/main/udpcustom/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
+13) clear ; wget https://raw.githubusercontent.com/ataaxd/udp/main/udpcustom/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
+14) clear ; wget ${bot} && chmod +x bot.sh && ./bot.sh ;;
 0-99) clear ; menu ;;
 x) exit ;;
 *) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
