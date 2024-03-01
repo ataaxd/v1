@@ -282,7 +282,7 @@ case $opt in
 11) clear ; bw ;;
 15) clear ; menu-theme ;;
 13) clear ; update ;;
-12) clear ; wget https://raw.githubusercontent.com/ataaxd/udp/main/udpcustom/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
+12) clear ; wget https://raw.githubusercontent.com/ataaxd/udp/main/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
 14) clear ; wget ${bot} && chmod +x bot.sh && ./bot.sh ;;
 0-99) clear ; menu ;;
 x) exit ;;
