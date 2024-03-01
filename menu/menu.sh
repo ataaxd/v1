@@ -221,7 +221,7 @@ export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │                  ${BIWhite}${UWhite}AUTOSCRIPT PREMIUM REVOERVPN${NC}"
+echo -e "${BICyan} │                  ${BIWhite}${UWhite}AUTOSCRIPT REVOERVPN${NC}"
 echo -e "${BICyan} │"
 echo -e "${BICyan} │  ${BICyan}OS        :  ${BIYellow}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
 echo -e "${BICyan} │  ${BICyan}CPU       :  ${BIYellow}$cpu_usage${NC}"
@@ -246,7 +246,7 @@ echo -e "${BICyan} │  ${BICyan}[${BIWhite}3${BICyan}] VLESS    ${BICyan}[${BIY
 echo -e "${BICyan} │  ${BICyan}[${BIWhite}4${BICyan}] TROJAN   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}11${BICyan}] BANDWITH        ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
 echo -e "${BICyan} │  ${BICyan}[${BIWhite}5${BICyan}] SETTING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}12${BICyan}] INSTALL UDP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
 echo -e "${BICyan} │  ${BICyan}[${BIWhite}6${BICyan}] TRIAL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}13${BICyan}] UPDATE SCRIPT   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
-echo -e "${BICyan} │  ${BICyan}[${BIWhite}7${BICyan}] BACKUP   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}                                                                       ${NC}" "${BICyan} │${NC}"
+echo -e "${BICyan} │  ${BICyan}[${BIWhite}7${BICyan}] BACKUP   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}                                          ${BICyan}                          ${NC}" "${BICyan} │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
@@ -283,7 +283,7 @@ case $opt in
 15) clear ; menu-theme ;;
 13) clear ; update ;;
 12) clear ; wget https://raw.githubusercontent.com/ataaxd/udp/main/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
-14) clear ; wget ${bot} && chmod +x bot.sh && ./bot.sh ;;
+14) clear ; wget https://raw.githubusercontent.com/ataaxd/v1/main/bot/bot.sh && chmod +x bot.sh ./bot.sh ;;
 0-99) clear ; menu ;;
 x) exit ;;
 *) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
