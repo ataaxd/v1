@@ -246,7 +246,7 @@ echo -e "${BICyan} │  ${BICyan}[${BIWhite}3${BICyan}] VLESS    ${BICyan}[${BIY
 echo -e "${BICyan} │  ${BICyan}[${BIWhite}4${BICyan}] TROJAN   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}11${BICyan}] BANDWITH        ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
 echo -e "${BICyan} │  ${BICyan}[${BIWhite}5${BICyan}] SETTING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}12${BICyan}] INSTALL UDP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
 echo -e "${BICyan} │  ${BICyan}[${BIWhite}6${BICyan}] TRIAL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}13${BICyan}] UPDATE SCRIPT   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
-echo -e "${BICyan} │  ${BICyan}[${BIWhite}7${BICyan}] BACKUP   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}                                                                    ${NC}" "${BICyan} │${NC}"
+echo -e "${BICyan} │  ${BICyan}[${BIWhite}7${BICyan}] BACKUP   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "${BICyan}  [${BIWhite}  ${BICyan}]                 ${BICyan}[${BIYellow}    ${BICyan}]${NC}" "${BICyan} │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
